@@ -50,6 +50,7 @@ button {
     color: white;
     padding: auto;
     font-size: 18px;
+
     &:hover{
         background-color: #4C9CFF;
     }
@@ -62,6 +63,14 @@ button {
     background-color: white;
     border: solid 2px #1F83FF;
     color: #1F83FF;
+}
+
+.btn__cliked{
+    background-color: pink;
+}
+
+.btn__hover{
+    background-color: #4C9CFF;
 }
 
 .btn__disabled{
